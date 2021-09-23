@@ -1,0 +1,29 @@
+{
+  "name": "lro-vet-api",
+  "version": "1.0.0",
+  "description": "Simple API for Veterinary Filing System",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OLeonardoRodrigues/lro-vet-api.git"
+  },
+  "author": "OLeonardoRodrigues",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/OLeonardoRodrigues/lro-vet-api/issues"
+  },
+  "homepage": "https://github.com/OLeonardoRodrigues/lro-vet-api#readme",
+  "devDependencies": {
+    "axios": "^0.21.4",
+    "jest": "^27.2.1",
+    "nodemon": "^2.0.12"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  }
+}
